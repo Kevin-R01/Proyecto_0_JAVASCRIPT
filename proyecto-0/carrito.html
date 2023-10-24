@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+
+    <div id="productos">
+        <div class="producto">
+            <span>productos a comprar(papas,leche,huevos)</span>
+            <span>Precio: $10</span>
+            <button class="agregar">Agregar al Carrito</button>
+        </div>
+
+        <div class="producto">
+            <span>productos a comprar(carne,arroz,ensalada)</span>
+            <span>Precio: $15</span>
+            <button class="agregar">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <div id="carrito">
+        <h2>a continuacion productos a comprar: </h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total">0</span></p>
+    </div>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>
